@@ -1,0 +1,92 @@
+@import "config";
+@import "utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  background: #393b3f;
+  height: 80px;
+  opacity: 0.8;
+  overflow: hidden;
+  border-bottom: #fff solid 1px;
+  border-top: #fff solid 1px;
+
+  #nav-main-img {
+    height: 60px;
+    margin: 10px;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  #main-nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    &-library {
+      height: 37%;
+      width: 115px;
+      margin: 25px;
+
+      a {
+        height: 100%;
+        width: 100%;
+      }
+
+      img {
+        position: relative;
+        height: 28px;
+        width: 115px;
+        z-index: 4;
+      }
+
+      img:hover {
+        opacity: 0.7;
+      }
+    }
+
+    &-downloads {
+      height: 38%;
+      width: 160px;
+      margin: 25px;
+
+      a {
+        height: 100%;
+        width: 100%;
+      }
+
+      img {
+        position: relative;
+        height: 24px;
+        width: 155px;
+        z-index: 4;
+      }
+
+      img:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+body {
+  background-image: url("../img/Creative/Shader_Test/2019-05-12_20.31.12.png");
+  line-height: 1.6rem;
+  font-family: "Noto Sans", sans-serif;
+}
