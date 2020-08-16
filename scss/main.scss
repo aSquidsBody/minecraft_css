@@ -178,6 +178,7 @@ body {
         &:hover {
           color: black;
           opacity: 25%;
+          cursor: pointer;
         }
       }
 
@@ -218,9 +219,6 @@ body {
       justify-content: center;
       text-align: center;
       margin-bottom: 30px;
-      a:hover {
-        color: coral;
-      }
     }
   }
 }
@@ -265,6 +263,7 @@ body {
 
 #library-section {
   margin-top: 30px;
+  margin-bottom: 30px;
   position: relative;
 }
 
@@ -320,6 +319,7 @@ body {
 
       &:hover {
         opacity: 25%;
+        cursor: pointer;
       }
     }
 
@@ -330,6 +330,7 @@ body {
 
       &:hover {
         opacity: 25%;
+        cursor: pointer;
       }
     }
 
@@ -340,6 +341,50 @@ body {
 
       &:hover {
         opacity: 25%;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// Footer
+#main-footer{
+  background: #333;
+  
+  #footer-container {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+    .footer-label{
+      color: #f4f4f4;
+      text-align: center;
+      margin: 20px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .footer-subsection{
+      margin: 0px 10px;
+
+      h4{
+        color: #f4f4f4;
+      }
+      h3{
+        color: #f4f4f4;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
+      a{
+        color: lightblue;
+        padding-top: 10px;
+      }
+      p {
+        padding-top: 10px;
+        color: #f0f0f0
       }
     }
   }

@@ -37,6 +37,12 @@
   border-bottom: solid 1px #333;
   border-left: solid 2px #333; }
 
+.coral-hover {
+  font-size: 1rem; }
+
+.coral-hover:hover {
+  color: coral !important; }
+
 * {
   margin: 0;
   padding: 0;
@@ -176,7 +182,8 @@ body {
       margin-bottom: 10px; }
       #world-downloads-grid .world-downloads-item i:hover {
         color: black;
-        opacity: 25%; }
+        opacity: 25%;
+        cursor: pointer; }
     #world-downloads-grid .world-downloads-item:nth-child(3n + 0) i {
       background-color: #133; }
       #world-downloads-grid .world-downloads-item:nth-child(3n + 0) i:hover {
@@ -195,8 +202,6 @@ body {
     justify-content: center;
     text-align: center;
     margin-bottom: 30px; }
-    #world-downloads-grid .see-other-downloads a:hover {
-      color: coral; }
 
 #about-kitchen {
   width: 100%;
@@ -227,6 +232,7 @@ body {
 
 #library-section {
   margin-top: 30px;
+  margin-bottom: 30px;
   position: relative; }
 
 .library-overlay {
@@ -268,16 +274,47 @@ body {
       height: 75vh;
       transition: opacity 0.5s; }
       #library-grid .library-cover #library-stovetop-cover:hover {
-        opacity: 25%; }
+        opacity: 25%;
+        cursor: pointer; }
     #library-grid .library-cover #library-countertop-cover {
       background: url("../img/Countertop/Hobbit_Hole/Exterior/2020-05-16_19.35.56.png") no-repeat center top/cover;
       height: 75vh;
       transition: opacity 0.5s; }
       #library-grid .library-cover #library-countertop-cover:hover {
-        opacity: 25%; }
+        opacity: 25%;
+        cursor: pointer; }
     #library-grid .library-cover #library-pantry-cover {
       background: url("../img/pandas.png") no-repeat center center/cover;
       height: 75vh;
       transition: opacity 0.5s; }
       #library-grid .library-cover #library-pantry-cover:hover {
-        opacity: 25%; }
+        opacity: 25%;
+        cursor: pointer; }
+
+#main-footer {
+  background: #333; }
+  #main-footer #footer-container {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 20px 0px; }
+    #main-footer #footer-container .footer-label {
+      color: #f4f4f4;
+      text-align: center;
+      margin: 20px;
+      font-family: 'Courier New', Courier, monospace; }
+    #main-footer #footer-container .footer-subsection {
+      margin: 0px 10px; }
+      #main-footer #footer-container .footer-subsection h4 {
+        color: #f4f4f4; }
+      #main-footer #footer-container .footer-subsection h3 {
+        color: #f4f4f4; }
+      #main-footer #footer-container .footer-subsection ul {
+        display: flex;
+        flex-direction: column; }
+      #main-footer #footer-container .footer-subsection a {
+        color: lightblue;
+        padding-top: 10px; }
+      #main-footer #footer-container .footer-subsection p {
+        padding-top: 10px;
+        color: #f0f0f0; }
