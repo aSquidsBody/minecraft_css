@@ -3,33 +3,209 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <!-- Noto Sans font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" type="image/x-con" href="favicon.ico" />
     <title>Home | The Kitchen</title>
   </head>
   <body>
     <!-- Main Header -->
-    <header id="main-header" class="header">
-      <div class="container">
-        <nav id="main-nav">
-          <img
-            id="nav-main-img"
-            src="img/website_name_white.png"
-            alt="Website Title"
+    <header id="header-main" class="header">
+      <img
+        id="nav-title-img"
+        src="img/website_name_new_with_subtext.png"
+        alt="Website Title"
+      />
+
+      <!-- View the downloads button -->
+      <button id="view-site-btn">
+        VIEW THE <br />
+        DOWNLOADS
+      </button>
+      <!-- Login Box -->
+      <!-- <div class="login-box">
+        <h3 id="login-title">Log In</h3>
+        <div class="form-control">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
           />
-          <ul>
-            <li class="nav-link-library">
-              <a href="library.html"><img src="img/library.png" alt="" /></a>
-            </li>
-            <li class="nav-link-downloads">
-              <a href="downloads.html"><img src="img/download.png" alt="" /></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+        </div>
+        <div class="form-control">
+          <input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+        </div>
+        <input
+          type="submit"
+          value="LOGIN"
+          id="login-btn"
+          class="btn btn-blue"
+        />
+        <p>
+          Don't have an account?
+          <a href="#" class="link-text">Create an account</a>
+        </p>
+      </div> -->
     </header>
+    <section id="world-downloads-section" class="container">
+      <!-- World Downloads -->
+      <img
+        id="world-downloads-img"
+        src="img/world-downloads-small.png"
+        alt="World Downloads"
+      />
+      <div class="separation-line bkc-gray"></div>
+
+      <div id="world-downloads-grid">
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">Download</div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>Countertop</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">
+            Download
+          </div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>Stovetop</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">Download</div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>Countertop</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">Download</div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>Countertop</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">Download</div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>The Pantry</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">Download</div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>Countertop</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">Download</div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>Stovetop</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">Download</div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>Countertop</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="world-downloads-item">
+          <div class="world-downloads-overlay">Download</div>
+          <i class="far fa-file-archive fa-5x"></i>
+          <h3>Countertop</h3>
+          <p>Captured on: 2015/05/23</p>
+          <p>Uploaded on: 2020/06/01</p>
+        </div>
+
+        <div class="see-other-downloads">
+          <a href="#">See all downloads</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about-kitchen">
+      <div class="container">
+        <div class="about-overlay"></div>
+        <img
+          id="about-kitchen-img"
+          src="img/about-the-kitchen.png"
+          alt="About The Kitchent"
+        />
+        <div class="separation-line bkc-white"></div>
+        <p id="about-kitchen-text">
+          The Kitchen a Minecraft realm consisting of multiple worlds. Since its
+          inception, there have been three worlds hosted on this realm:
+          <strong>Stovetop</strong>, <strong>Countertop</strong>, and
+          <strong>The Pantry</strong>. <br />
+          <br />
+          Prior to the conception of The Kitchen Realm, the Kitchen existed as a
+          private server on CknSoup's Raspberry Pi. When the server load became
+          too much for the device & household internet to handle, the realm was
+          purchased. <br />
+          <br />
+
+          To this day, the realm is regularly visited. The members of the realm
+          are CknSoup, RoyalThirty, WOTR, Daradhel, Arwen326, and Goldtop11.
+        </p>
+      </div>
+    </section>
+
+    <!-- Library Section -->
+    <section id="library-section" class="container">
+      <div class="library-overlay">
+        <div class="library-overlay-label">
+          <h3>Stovetop</h3>
+        </div>
+        <div class="library-overlay-label">
+          <h3>Countertop</h3>
+        </div>
+        <div class="library-overlay-label">
+          <h3>Pantry</h3>
+        </div>
+      </div>
+      <div id="library-grid">
+        <div class="library-cover">
+          <div id="library-stovetop-cover"></div>
+        </div>
+        <div class="library-cover">
+          <div id="library-countertop-cover"></div>
+        </div>
+        <div class="library-cover">
+          <div id="library-pantry-cover"></div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -1,5 +1,51 @@
+@import "config";
+
 .container {
   max-width: $website-width;
   margin: auto;
   overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+
+  &-blue {
+    background-color: $sky-blue;
+    color: #fff;
+  }
+}
+
+.link-text {
+  color: #5772a5;
+}
+
+.thick {
+  font-weight: bold;
+}
+
+.separation-line {
+  height: 7px;
+  width: 80px;
+
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.bkc-gold {
+  background-color: $gold;
+}
+
+.bkc-gray {
+  background-color: #333;
+}
+
+.bkc-white {
+  background-color: #e4e4e4;
+  border-right: solid 2px #333;
+  border-bottom: solid 1px #333;
+  border-left: solid 2px #333;
 }
